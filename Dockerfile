@@ -7,6 +7,7 @@ WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
     gcc \
+    aria2 \
     ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
